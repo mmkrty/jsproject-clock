@@ -7,6 +7,7 @@ body {
     font-family: 'Slackey', cursive;
     color: #FFF56C;
     -webkit-text-stroke: 1px #AEAD0D;
+    text-shadow: 2px 2px 4px #020101;
 }
 
 img {
@@ -15,6 +16,7 @@ img {
 
 .header {
     text-align: center;
+    padding: .5rem;
 }
 
 .header-text {
@@ -23,7 +25,9 @@ img {
 }
 .header-time {
     font-size: 2rem;
-    margin: 1rem 0;
+    margin: 0;
+    margin-top: 1rem;
+   
 }
 
 .wrapper {
@@ -109,8 +113,8 @@ img {
 
 @media (max-width:800px){
     .clock {
-        width:70vw;
-        height: 70vw;
+        width:80vw;
+        height: 80vw;
     }
 
     .header-text {
@@ -124,8 +128,8 @@ img {
 
 @media (max-width:500px){
     .clock {
-        width:80vw;
-        height: 80vw;
+        width:90vw;
+        height: 90vw;
     }
 
     .header-text {
